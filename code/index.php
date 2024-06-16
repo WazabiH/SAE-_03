@@ -1,5 +1,5 @@
 <?php
-$couleur_bulle_classe = "rose";
+$couleur_bulle_classe = "jaune";
 $page_active = "index";
 
 require_once('./ressources/includes/connexion-bdd.php');
