@@ -42,6 +42,8 @@ if ($formulaire_soumis) {
 
 <head>
     <?php require_once('../ressources/includes/head.php'); ?>
+    <link  rel= "icône de raccourci"  href= "/favicon.ico"  type= "image/x-icon" > 
+    <link  rel= "icon"  href= "favicon.ico"  type= "image/x-icon" >
 
     <title>Creation auteur - Administration</title>
 </head>
