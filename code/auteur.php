@@ -62,12 +62,11 @@ $articles = mysqli_fetch_all($resultat_articles, MYSQLI_ASSOC);
             <p class="text-gray-800 mt-4"><?php echo htmlspecialchars_decode($article['chapo']); ?></p>
             <a href="article.php?id=<?php echo $article['id']; ?>" class="mt-4 block text-blue-600 hover:text-blue-800">Lire l'article</a>
         </div>
-    </div>
+        </div>
             <?php endforeach; ?>
         </div>
     </main>
 
     <?php require_once('./ressources/includes/footer.php'); ?>
 </body>
-
 </html>
