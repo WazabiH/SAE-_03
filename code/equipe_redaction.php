@@ -30,6 +30,9 @@ $auteurs = mysqli_fetch_all($resultat_auteurs, MYSQLI_ASSOC);
     <link rel="stylesheet" href="ressources/css/global.css">
     <link rel="stylesheet" href="ressources/css/equipe.css">
     
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 
 
