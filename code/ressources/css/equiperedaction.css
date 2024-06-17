@@ -1,0 +1,56 @@
+.team-container {
+    margin-top: 120px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px; 
+    margin: 50px auto;
+}
+
+.team-member {
+    background-color: #fff;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.team-member:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.auteur {
+    cursor: pointer;
+}
+
+.auteur:hover {
+    filter: brightness(0.9);
+}
+
+.member-photo {
+    border-radius: 0%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin: 0 auto; 
+}
+
+.member-info {
+    margin-top: 15px;
+}
+
+.member-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.member-role {
+    color: #777;
+    font-size: 16px;
+}
