@@ -1,5 +1,5 @@
 <?php
-$couleur_bulle_classe = "rose";
+$couleur_bulle_classe = "aqua";
 $page_active = "equipe";
 
 require_once('./ressources/includes/connexion-bdd.php');
